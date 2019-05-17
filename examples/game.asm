@@ -61,6 +61,7 @@ call playerDelete:
 sub r3, 5h
 call playerDraw:
 
+mov r28, 0
 jmp main:
 
 ;-----------------------
@@ -69,6 +70,7 @@ call playerDelete:
 sub r4, 5h
 call playerDraw:
 
+mov r28, 0
 jmp main:
 
 ;-----------------------
@@ -77,6 +79,7 @@ call playerDelete:
 add r3, 5h
 call playerDraw:
 
+mov r28, 0
 jmp main:
 
 ;-----------------------
@@ -85,6 +88,7 @@ call playerDelete:
 add r4, 5h
 call playerDraw:
 
+mov r28, 0
 jmp main:
 
 ;----------------------------------------------------------------------
