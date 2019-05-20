@@ -19,3 +19,15 @@ Command size:
 * With one operand  - 7 bytes
 * With two operands - 11 bytes
 ```
+
+## kkasm examples
+* test.kkasm - simple code with random operations.
+* game.kkasm - simple game using video memory.
+
+### Assembly
+`python examples\game.kkasm game.bin`
+
+### Start
+Bin files may launch with using special emulator of my own processor architecture. 
+
+Github project with this emulator will be publicated later.
