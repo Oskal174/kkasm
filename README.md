@@ -30,4 +30,4 @@ Command size:
 ### Start
 Bin files may launch with using special emulator of my own processor architecture. 
 
-Github project with this emulator will be publicated later.
+Github project with this emulator: https://github.com/Oskal174/kkasm_emulator
