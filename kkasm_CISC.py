@@ -898,6 +898,12 @@ if __name__ == '__main__':
 	DataFlag = 0
 	CodeFlag = 0
 
+	# Adding special signature to the binary file
+	FileOUT.write(b'\x4B') # K
+	FileOUT.write(b'\x41') # A
+	FileOUT.write(b'\x53') # S
+	FileOUT.write(b'\x4D') # M
+
 	Vars = []
 	LineCount = 0
 	CurrentLine = ''
